@@ -38,9 +38,9 @@ Backend พัฒนาโดยใช้ **Node.js + Express.js**
 restaurant-search/
 │
 ├── backend/                 # Node.js + Express API
-│   ├── config/              # การตั้งค่า DB
 │   ├── routes/              # Route ของ API
 │   ├── controllers/         # Logic จัดการข้อมูล
+│   ├── config.js              # การตั้งค่า DB
 │   └── app.js            # จุดเริ่มต้นของ server
 │
 ├── frontend/                # Vite + React + Tailwind
